@@ -4,7 +4,7 @@ export default function Home() {
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
         <div>
           <video
-            src={require("../../public/invite.mp4")}
+            src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1725752193/invite_ab744a.mp4"
             autoPlay
             loop
             muted
