@@ -45,7 +45,7 @@ const TimerSection = () => {
         </>
       ) : (
         <>
-          <div className="">
+          <div className="mt-8 mb-8">
             <div className="mb-4">
               <p className="text-center text-lg font-bold text-primary-950">
                 Faltan:

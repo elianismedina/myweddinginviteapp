@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        playfairdisplay: "Playfair Display, ui-serif",
+      },
       colors: {
         transparent: "transparent",
         current: "currentColor",
