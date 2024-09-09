@@ -6,7 +6,28 @@ import VideoSection from "./video";
 import localFont from "next/font/local";
 
 const myFont = localFont({
-  src: "./fonts/PlayfairDisplay-Regular.woff",
+  src: [
+    {
+      path: "./fonts/PlayfairDisplay-Regular.woff",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/PlayfairDisplay-Bold.woff",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/PlayfairDisplay-BlackItalic.woff",
+      weight: "400",
+      style: "italic",
+    },
+    {
+      path: "./fonts/PlayfairDisplay-BoldItalic.woff",
+      weight: "700",
+      style: "italic",
+    },
+  ],
 });
 
 export default function Home() {

@@ -2,7 +2,7 @@ import React from "react";
 
 const VideoSection = () => {
   return (
-    <div className="">
+    <div className="flex flex-col items-center justify-center">
       <video
         width={500}
         height={700}
