@@ -2,17 +2,16 @@ import React from "react";
 
 const VideoSection = () => {
   return (
-    <div>
+    <div className="">
       <video
-        width={300}
-        height={300}
+        width={500}
+        height={600}
         controls
         preload="auto"
         autoPlay
         loop
         muted
         playsInline
-        className="rounded-lg"
       >
         <source
           src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1725752193/invite_ab744a.mp4"
