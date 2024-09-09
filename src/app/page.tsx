@@ -23,9 +23,9 @@ export default function Home() {
             const data = await res.json();
             console.log(data);
           }}
-          className="px-4 py-2 text-white bg-primary-900 rounded-md flex flex-row items-center justify-center gap-2"
+          className="px-4 py-2 text-white bg-primary-900 rounded-md flex flex-row items-center justify-center gap-2 font-semibold text-sm"
         >
-          Send email
+          Confirmar asistencia
         </button>
       </main>
       <footer className="row-start-3   flex gap-6 flex-wrap items-center justify-center bg-primary-400 w-full">
