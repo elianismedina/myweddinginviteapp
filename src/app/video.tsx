@@ -5,8 +5,7 @@ const VideoSection = () => {
     <div className="">
       <video
         width={500}
-        height={600}
-        controls
+        height={700}
         preload="auto"
         autoPlay
         loop
@@ -14,7 +13,7 @@ const VideoSection = () => {
         playsInline
       >
         <source
-          src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1725752193/invite_ab744a.mp4"
+          src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1725883226/inviteeli_vmdm52.mp4"
           type="video/mp4"
         />
       </video>
