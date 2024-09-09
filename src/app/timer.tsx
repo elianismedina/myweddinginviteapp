@@ -45,23 +45,40 @@ const TimerSection = () => {
         </>
       ) : (
         <>
-          <div className="timer-wrapper">
-            <div className="timer-inner">
-              <div className="timer-segment">
-                <span className="time">{days}</span>
-                <span className="label">Días</span>
+          <div className="">
+            <div className="mb-4">
+              <p className="text-center text-lg font-bold text-primary-950">
+                Faltan:
+              </p>
+            </div>
+            <div className="flex flex-row items-center justify-center text-center gap-4">
+              <div className="flex flex-col bg-gradient-to-r from-primary-700 to bg-primary-900 text-primary-200 p-2 rounded-lg">
+                <span className="text-md font-semibold md:text-2xl">
+                  {days}
+                </span>
+                <span className="text-md font-semibold md:text-2xl">Días</span>
               </div>
-              <div className="timer-segment">
-                <span className="time">{hours}</span>
-                <span className="label">Horas</span>
+              <div className="flex flex-col bg-gradient-to-r from-primary-700 to bg-primary-900 text-primary-200 p-2 rounded-lg">
+                <span className="text-md font-semibold md:text-2xl">
+                  {hours}
+                </span>
+                <span className="text-md font-semibold md:text-2xl">Horas</span>
               </div>
-              <div className="timer-segment">
-                <span className="time">{minutes}</span>
-                <span className="label">Minutos</span>
+              <div className="flex flex-col bg-gradient-to-r from-primary-700 to bg-primary-900 text-primary-200 p-2 rounded-lg">
+                <span className="text-md font-semibold md:text-2xl">
+                  {minutes}
+                </span>
+                <span className="text-md font-semibold md:text-2xl">
+                  Minutos
+                </span>
               </div>
-              <div className="timer-segment">
-                <span className="time">{seconds}</span>
-                <span className="label">Segundos</span>
+              <div className="flex flex-col bg-gradient-to-r from-primary-700 to bg-primary-900 text-primary-200 p-2 rounded-lg">
+                <span className="text-md font-semibold md:text-2xl">
+                  {seconds}
+                </span>
+                <span className="text-md font-semibold md:text-2xl">
+                  Segundos
+                </span>
               </div>
             </div>
           </div>
