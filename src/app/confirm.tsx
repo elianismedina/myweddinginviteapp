@@ -38,11 +38,30 @@ const ConfirmSection = () => {
                 Confirma tu asistencia
               </ModalHeader>
               <ModalBody>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Nullam pulvinar risus non risus hendrerit venenatis.
-                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
-                </p>
+                <form action="">
+                  <div className="flex flex-col gap-4">
+                    <label htmlFor="name" className="text-primary-800">
+                      Nombre
+                    </label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      className="p-2 bg-primary-950 text-primary-100"
+                    />
+                  </div>
+                  <div className="flex flex-col gap-4">
+                    <label htmlFor="phone" className="text-primary-800">
+                      Número de teléfono
+                    </label>
+                    <input
+                      type="phone"
+                      name="phone"
+                      id="phone"
+                      className="p-2 bg-primary-950 text-primary-100"
+                    />
+                  </div>
+                </form>
               </ModalBody>
               <ModalFooter>
                 <Button
