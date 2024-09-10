@@ -4,20 +4,7 @@ const ConfirmButton = () => {
   return (
     <div>
       <button
-        onClick={async () => {
-          const res = await fetch("/api/emails", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({
-              email: "elianismedina05@outlook.com",
-              firstName: "Elianis",
-            }),
-          });
-          const data = await res.json();
-          console.log(data);
-        }}
+        type="submit"
         className="
         px-4 py-2 text-white bg-primary-900 rounded-md flex flex-row items-center justify-center gap-2 text-sm"
       >
