@@ -9,15 +9,15 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
   const senderPhone = formData.get("senderPhone");
-  const senderName = formData.get("sendeName");
+  const senderName = formData.get("senderName");
 
   // simple server-side validation
-  if (!validateString(senderPhone, 500)) {
+  if (!validateString(senderPhone, 10)) {
     return {
       error: "Invalid sender phone",
     };
   }
-  if (!validateString(senderName, 5000)) {
+  if (!validateString(senderName, 50)) {
     return {
       error: "Invalid name",
     };
@@ -28,7 +28,7 @@ export const sendEmail = async (formData: FormData) => {
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: "elianismedina05@outlook.com",
-      subject: "Message from contact form",
+      subject: "Alguien te ha confirmado su asistencia",
 
       react: React.createElement(ContactFormEmail, {
         senderName: senderName,

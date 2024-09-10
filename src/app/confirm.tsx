@@ -41,7 +41,7 @@ const ConfirmSection = () => {
             <>
               <form
                 action={async (formData) => {
-                  const { error } = await sendEmail(formData);
+                  const { data, error } = await sendEmail(formData);
 
                   if (error) {
                     toast.error(error);
@@ -61,7 +61,10 @@ const ConfirmSection = () => {
                     </label>
                     <input
                       type="text"
-                      name="name"
+                      required
+                      maxLength={50}
+                      name="senderName"
+                      placeholder="Jane Doe"
                       id="name"
                       className="p-2 bg-primary-950 text-primary-100"
                     />
@@ -72,7 +75,10 @@ const ConfirmSection = () => {
                     </label>
                     <input
                       type="phone"
-                      name="phone"
+                      required
+                      maxLength={10}
+                      placeholder="1234567890"
+                      name="senderPhone"
                       id="phone"
                       className="p-2 bg-primary-950 text-primary-100"
                     />
