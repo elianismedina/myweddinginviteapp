@@ -2,8 +2,8 @@ import React from "react";
 import localFont from "next/font/local";
 import Image from "next/image";
 
-const greatVibes = localFont({
-  src: "./fonts/GreatVibes-Regular.ttf",
+const raleway = localFont({
+  src: "./fonts/Raleway-VariableFont_wght.ttf",
 });
 
 const MensajeSection = () => {
@@ -19,8 +19,8 @@ const MensajeSection = () => {
           height={800}
           className="opacity-50 relative "
         />
-        <div className="absolute md:w-1/3 text-center text-lg p-4">
-          <h2 className={greatVibes.className}>
+        <div className="absolute md:w-1/3 text-center text-xs md:text-lg p-8 text-primary-950">
+          <h2 className={raleway.className}>
             Con inmensa alegría y gratitud, queremos compartir con usted una
             noticia muy especial, después de un hermoso camino juntos, hemos
             decidido unir nuestras vidas en matrimonio y queremos compartir ese
@@ -29,7 +29,7 @@ const MensajeSection = () => {
             ¡Tú eres una de ellas!.
           </h2>
           <br />
-          <h3 className={greatVibes.className}>
+          <h3 className={raleway.className}>
             Acompáñanos y has de nuestro día soñado un momento aún más especial.
           </h3>
         </div>
