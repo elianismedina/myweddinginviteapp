@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import Welcome from "../../../emails/Welcome";
+import ContactFormEmail from "../../../emails/contact-form-email";
 
 import { Resend } from "resend";
 
@@ -12,7 +12,10 @@ export async function POST(request: Request) {
       from: "onboarding@resend.dev",
       to: email,
       subject: "You are invited!",
-      react: Welcome({ firstName }),
+      react: ContactFormEmail({
+        senderName: firstName,
+        senderPhone: "1234567890",
+      }),
     });
     console.log(data);
     return NextResponse.json(

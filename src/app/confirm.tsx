@@ -1,3 +1,4 @@
+"use client";
 import {
   Modal,
   ModalContent,
@@ -8,6 +9,10 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 import localFont from "next/font/local";
+
+import { sendEmail } from "@/actions/sendEmail";
+import { toast } from "react-hot-toast";
+import ConfirmButton from "./components/ConfirmButton";
 
 const raleway = localFont({
   src: "./fonts/Raleway-VariableFont_wght.ttf",
@@ -34,11 +39,22 @@ const ConfirmSection = () => {
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">
-                Confirma tu asistencia
-              </ModalHeader>
-              <ModalBody>
-                <form action="">
+              <form
+                action={async (formData) => {
+                  const { error } = await sendEmail(formData);
+
+                  if (error) {
+                    toast.error(error);
+                    return;
+                  }
+
+                  toast.success("Email sent successfully!");
+                }}
+              >
+                <ModalHeader className="flex flex-col gap-1">
+                  Confirma tu asistencia
+                </ModalHeader>
+                <ModalBody>
                   <div className="flex flex-col gap-4">
                     <label htmlFor="name" className="text-primary-800">
                       Nombre
@@ -61,24 +77,19 @@ const ConfirmSection = () => {
                       className="p-2 bg-primary-950 text-primary-100"
                     />
                   </div>
-                </form>
-              </ModalBody>
-              <ModalFooter>
-                <Button
-                  color="danger"
-                  variant="light"
-                  onPress={onClose}
-                  className="bg-primary-950 text-primary-100 p-2"
-                >
-                  Cerrar
-                </Button>
-                <Button
-                  onPress={onClose}
-                  className="bg-primary-800 text-primary-100 p-2"
-                >
-                  Confirmar asistencia
-                </Button>
-              </ModalFooter>
+                </ModalBody>
+                <ModalFooter>
+                  <Button
+                    color="danger"
+                    variant="light"
+                    onPress={onClose}
+                    className="px-4 py-2 text-white bg-primary-900 rounded-md flex flex-row items-center justify-center gap-2 text-sm"
+                  >
+                    Cerrar
+                  </Button>
+                  <ConfirmButton />
+                </ModalFooter>
+              </form>
             </>
           )}
         </ModalContent>
