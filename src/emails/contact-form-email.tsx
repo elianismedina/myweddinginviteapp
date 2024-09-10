@@ -30,9 +30,13 @@ export default function ContactFormEmail({
           <Container>
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
               <Heading className="leading-tight">
-                You received the following message from the contact form
+                Hola Carlos & Elizabeth, un invitado ha confirmado su asistencia
+                a tu boda
               </Heading>
-              <Text>{senderName}</Text>
+              <Text>
+                El nombre del invitado que confirmó su asistencia es:{" "}
+                {senderName}
+              </Text>
               <Hr />
               <Text>El teléfono del invitado es: {senderPhone}</Text>
             </Section>
