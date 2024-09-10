@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es-col">
-      <body className=" bg-primary-500">{children}</body>
+      <body className="bg-primary-400">{children}</body>
     </html>
   );
 }

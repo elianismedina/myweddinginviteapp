@@ -14,7 +14,7 @@ const VideoSection = () => {
         controls
       >
         <source
-          src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1725884088/inviteelicarlos_hbozir.mp4"
+          src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1725938323/inviteupdated_vrsh7p.mp4"
           type="video/mp4"
         />
       </video>
