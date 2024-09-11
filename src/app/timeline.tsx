@@ -23,20 +23,22 @@ const TimelineSection = () => {
               contentStyle={{
                 background: "#FFEEE3",
                 boxShadow: "none",
-                border: "1px solid rgba(0, 0, 0, 0.05)",
+                border: "1px solid rgba(69, 26, 3, 1)",
                 textAlign: "left",
                 padding: "1.3rem 2rem",
               }}
               contentArrowStyle={{
                 borderRight: "0.4rem solid rgba(69, 26, 3, 1)",
               }}
-              date={item.event}
               icon={item.icon}
               iconStyle={{
                 background: "linear-gradient(145deg, #451a03, #FFEEE3)",
                 fontSize: "1rem",
               }}
             >
+              <h3 className="!font-bold text-primary-950 dark:text-white">
+                {item.event}
+              </h3>
               <p className="!mt-1 !font-normal text-primary-950 dark:text-white/75">
                 {item.time}
               </p>
