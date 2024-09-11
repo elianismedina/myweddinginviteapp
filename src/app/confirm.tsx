@@ -28,7 +28,7 @@ const ConfirmSection = () => {
       <div className="flex flex-col items-center justify-center">
         <Button
           onPress={onOpen}
-          className=" bg-primary-800 text-primary-100 mb-8 p-2"
+          className=" bg-primary-800 text-primary-100 mb-8 p-4 rounded-md"
         >
           Confirma tu asistencia
         </Button>

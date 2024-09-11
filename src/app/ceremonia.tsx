@@ -15,7 +15,7 @@ const CeremoniaSection = () => {
             Lugar:
           </h2>
           <p className="text-lg text-center text-primary-900">
-            Iglesia Catedral de Santa Catalina de Alejandría
+            Iglesia Catedral de <br /> Santa Catalina de Alejandría
           </p>
         </div>
         <div className="flex flex-col gap-2 mb-6">
@@ -23,7 +23,8 @@ const CeremoniaSection = () => {
             Dirección:
           </h2>
           <p className="text-lg text-center text-primary-900">
-            Calle de los Santos de Piedra, Cra. 4, Cartagena, Bolívar
+            Calle de los Santos de Piedra,
+            <br /> Cra. 4, Cartagena, Bolívar
           </p>
         </div>
       </div>
