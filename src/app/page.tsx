@@ -3,6 +3,7 @@ import CeremoniaSection from "./ceremonia";
 import ConfirmSection from "./confirm";
 import MensajeSection from "./mensaje";
 import RecepcionSection from "./recepcion";
+import TimelineSection from "./timeline";
 import TimerSection from "./timer";
 import VideoSection from "./video";
 import localFont from "next/font/local";
@@ -42,6 +43,7 @@ export default function Home() {
         <MensajeSection />
         <CeremoniaSection />
         <RecepcionSection />
+        <TimelineSection />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center bg-primary-950 w-full text-primary-400 p-2 text-sm">
         <p>Carlos & Elizabeth wedding invite</p>
