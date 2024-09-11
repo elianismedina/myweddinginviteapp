@@ -14,7 +14,6 @@ import { sendEmail } from "@/actions/sendEmail";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { exit } from "process";
 
 const raleway = localFont({
   src: "./fonts/Raleway-VariableFont_wght.ttf",
