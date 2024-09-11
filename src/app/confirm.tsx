@@ -22,6 +22,7 @@ const raleway = localFont({
 const ConfirmSection = () => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const notify = () => toast.success("¡Gracias por confirmar tu asistencia!");
+
   return (
     <>
       <div className="flex flex-col items-center justify-center">
@@ -36,6 +37,7 @@ const ConfirmSection = () => {
       <Modal
         isOpen={isOpen}
         onOpenChange={onOpenChange}
+        placement="center"
         className={raleway.className}
       >
         <ToastContainer position="top-center" autoClose={1000} />
