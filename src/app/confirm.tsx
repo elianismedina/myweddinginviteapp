@@ -11,8 +11,9 @@ import {
 import localFont from "next/font/local";
 
 import { sendEmail } from "@/actions/sendEmail";
-import { toast } from "react-hot-toast";
-import ConfirmButton from "./components/ConfirmButton";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const raleway = localFont({
   src: "./fonts/Raleway-VariableFont_wght.ttf",
@@ -20,6 +21,7 @@ const raleway = localFont({
 
 const ConfirmSection = () => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
+  const notify = () => toast.success("¡Gracias por confirmar tu asistencia!");
   return (
     <>
       <div className="flex flex-col items-center justify-center">
@@ -36,19 +38,17 @@ const ConfirmSection = () => {
         onOpenChange={onOpenChange}
         className={raleway.className}
       >
+        <ToastContainer position="top-center" autoClose={1000} />
         <ModalContent>
           {(onClose) => (
             <>
               <form
                 action={async (formData) => {
                   const { error } = await sendEmail(formData);
-
                   if (error) {
-                    toast.error(error);
+                    console.error(error);
                     return;
                   }
-
-                  toast.success("Email sent successfully!");
                 }}
               >
                 <ModalHeader className="flex flex-col gap-1">
@@ -93,7 +93,17 @@ const ConfirmSection = () => {
                   >
                     Cerrar
                   </Button>
-                  <ConfirmButton />
+                  <div>
+                    <button
+                      type="submit"
+                      className="px-4 py-2 text-white bg-primary-900 rounded-md flex flex-row items-center justify-center gap-2 text-sm"
+                      onClick={() => {
+                        notify();
+                      }}
+                    >
+                      Confirmar asistencia
+                    </button>
+                  </div>
                 </ModalFooter>
               </form>
             </>
