@@ -1,5 +1,6 @@
 "use client";
 import { itineraryData } from "@/lib/data";
+import localFont from "next/font/local";
 
 import React from "react";
 import {
@@ -8,15 +9,19 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 
+const raleway = localFont({
+  src: "./fonts/Raleway-VariableFont_wght.ttf",
+});
+
 const TimelineSection = () => {
   return (
-    <div>
+    <div className={raleway.className}>
       <VerticalTimeline lineColor="">
         {itineraryData.map((item, index) => (
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background: "#fef3c7",
+                background: "#FFEEE3",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -28,8 +33,8 @@ const TimelineSection = () => {
               date={item.event}
               icon={item.icon}
               iconStyle={{
-                background: "linear-gradient(145deg, #451a03, #fef3c7)",
-                fontSize: "1.5rem",
+                background: "linear-gradient(145deg, #451a03, #FFEEE3)",
+                fontSize: "1rem",
               }}
             >
               <p className="!mt-1 !font-normal text-primary-950 dark:text-white/75">
