@@ -23,7 +23,7 @@ const TimelineSection = () => {
                 padding: "1.3rem 2rem",
               }}
               contentArrowStyle={{
-                borderRight: "0.4rem solid rgba(255, 255, 255, 0.5)",
+                borderRight: "0.4rem solid rgba(69, 26, 3, 1)",
               }}
               date={item.event}
               icon={item.icon}

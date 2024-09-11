@@ -37,7 +37,7 @@ const ConfirmSection = () => {
       <Modal
         isOpen={isOpen}
         onOpenChange={onOpenChange}
-        placement="center"
+        placement="top"
         backdrop="opaque"
         motionProps={{
           variants: {
