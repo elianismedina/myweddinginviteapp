@@ -89,14 +89,14 @@ const ConfirmSection = () => {
                     color="danger"
                     variant="light"
                     onPress={onClose}
-                    className="px-4 py-2 text-white bg-primary-900 rounded-md flex flex-row items-center justify-center gap-2 text-sm"
+                    className="px-4 py-2 text-primary-400 bg-primary-950 rounded-md flex flex-row items-center justify-center gap-2 text-sm"
                   >
                     Cerrar
                   </Button>
                   <div>
                     <button
                       type="submit"
-                      className="px-4 py-2 text-white bg-primary-900 rounded-md flex flex-row items-center justify-center gap-2 text-sm"
+                      className="px-4 py-2 text-primary-950 bg-primary-500 font-bold rounded-md flex flex-row items-center justify-center gap-2 text-sm"
                       onClick={() => {
                         notify();
                       }}
