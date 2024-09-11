@@ -14,6 +14,7 @@ import { sendEmail } from "@/actions/sendEmail";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { exit } from "process";
 
 const raleway = localFont({
   src: "./fonts/Raleway-VariableFont_wght.ttf",
@@ -38,6 +39,28 @@ const ConfirmSection = () => {
         isOpen={isOpen}
         onOpenChange={onOpenChange}
         placement="center"
+        backdrop="opaque"
+        motionProps={{
+          variants: {
+            enter: {
+              y: 0,
+              opacity: 1,
+              transition: {
+                duration: 0.3,
+                ease: "easeOut",
+              },
+            },
+            exit: {
+              y: -20,
+              opacity: 0,
+              transition: {
+                duration: 0.2,
+                ease: "easeIn",
+              },
+            },
+            // transition: "all 0.3s",
+          },
+        }}
         className={raleway.className}
       >
         <ToastContainer position="top-center" autoClose={1000} />
