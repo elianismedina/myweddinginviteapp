@@ -15,7 +15,7 @@ const raleway = localFont({
 
 const TimelineSection = () => {
   return (
-    <div className="bg-[url(https://res.cloudinary.com/dxa54qfxx/image/upload/v1726097978/timeline_01_iettyn.jpg)] opacity-60">
+    <div className="bg-[url(https://res.cloudinary.com/dxa54qfxx/image/upload/v1726097978/timeline_01_iettyn.jpg)] opacity-60 p-4">
       <div className={raleway.className}>
         <VerticalTimeline lineColor="">
           {itineraryData.map((item, index) => (
@@ -26,7 +26,7 @@ const TimelineSection = () => {
                   boxShadow: "none",
                   border: "1px solid rgba(69, 26, 3, 1)",
                   textAlign: "left",
-                  padding: "1.3rem 2rem",
+                  padding: "1.3rem 1rem",
                 }}
                 contentArrowStyle={{
                   borderRight: "0.4rem solid rgba(69, 26, 3, 1)",
