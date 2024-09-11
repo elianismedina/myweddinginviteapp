@@ -1,4 +1,5 @@
 "use client";
+import CeremoniaSection from "./ceremonia";
 import ConfirmSection from "./confirm";
 import MensajeSection from "./mensaje";
 import TimerSection from "./timer";
@@ -38,6 +39,7 @@ export default function Home() {
         <TimerSection />
         <ConfirmSection />
         <MensajeSection />
+        <CeremoniaSection />
       </main>
       <footer className="row-start-3   flex gap-6 flex-wrap items-center justify-center bg-primary-400 w-full">
         <p>Carlos & Elizabeth</p>
