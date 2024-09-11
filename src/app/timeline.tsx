@@ -16,7 +16,7 @@ const TimelineSection = () => {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background: "#f3f4f6",
+                background: "#fef3c7",
                 boxShadow: "none",
                 border: "1px solid rgba(0, 0, 0, 0.05)",
                 textAlign: "left",
@@ -28,11 +28,11 @@ const TimelineSection = () => {
               date={item.event}
               icon={item.icon}
               iconStyle={{
-                background: "linear-gradient(145deg, #FFC0CB, #FF69B4)",
+                background: "linear-gradient(145deg, #451a03, #fef3c7)",
                 fontSize: "1.5rem",
               }}
             >
-              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
+              <p className="!mt-1 !font-normal text-primary-950 dark:text-white/75">
                 {item.time}
               </p>
             </VerticalTimelineElement>
