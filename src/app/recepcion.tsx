@@ -3,19 +3,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { FaMapLocationDot } from "react-icons/fa6";
 
-const CeremoniaSection = () => {
+const RecepcionSection = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold text-center text-primary-900 mb-4">
-          Ceremonia
+          Recepción
         </h1>
         <div className="flex flex-col gap-2 mb-6">
           <h2 className="text-lg text-center text-primary-900 font-semibold">
             Lugar:
           </h2>
           <p className="text-lg text-center text-primary-900">
-            Iglesia Catedral de Santa Catalina de Alejandría
+            Museo Histórico de Cartagena de Indias - MUHCA - Palacio de la
+            Inquisición
           </p>
         </div>
         <div className="flex flex-col gap-2 mb-6">
@@ -23,24 +24,22 @@ const CeremoniaSection = () => {
             Dirección:
           </h2>
           <p className="text-lg text-center text-primary-900">
-            Calle de los Santos de Piedra, Cra. 4, Cartagena, Bolívar
+            46, Plaza de Bolivar Carrera 3 33. Cartagena, Bolívar
           </p>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center p-4">
         <Image
-          src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726016196/croppediglesia5_t9he1p.png"
-          alt="Iglesia"
-          quality={100}
+          src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726062066/recepcioncropped_tzlsts.png"
+          alt="Recepción"
           width={600}
-          height={800}
-          objectFit="contain"
+          height={600}
         />
       </div>
       <div className="flex flex-col items-center justify-center">
         <FaMapLocationDot className="text-4xl text-primary-900" />
         <Link
-          href="https://maps.app.goo.gl/U7cmhhMcFryFT67w8"
+          href="https://maps.app.goo.gl/TPnQSYR65XX3zQvB8"
           className="flex items-center justify-center p-4 text-lg text-primary-900 font-semibold underline"
           target="_blank"
         >
@@ -51,4 +50,4 @@ const CeremoniaSection = () => {
   );
 };
 
-export default CeremoniaSection;
+export default RecepcionSection;
