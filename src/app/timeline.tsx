@@ -12,16 +12,16 @@ const raleway = localFont({
 const TimelineSection = () => {
   return (
     <div
-      className="bg-[url(https://res.cloudinary.com/dxa54qfxx/image/upload/v1726097978/timeline_01_iettyn.jpg)] opacity-60 p-4
+      className="bg-[url(https://res.cloudinary.com/dxa54qfxx/image/upload/v1726097978/timeline_01_iettyn.jpg)] opacity-70 p-4
     flex flex-col justify-center items-center
     "
     >
       <div className={raleway.className}>
         <Image
-          src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726105267/timeline7_gqpcjj.svg"
+          src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726145102/final1_rsrd7m.svg"
           alt="Timeline"
-          width={350}
-          height={500}
+          width={300}
+          height={450}
           quality={100}
         />
       </div>
