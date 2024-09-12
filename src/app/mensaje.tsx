@@ -19,7 +19,7 @@ const MensajeSection = () => {
           height={800}
           className="opacity-50 relative "
         />
-        <div className="absolute md:w-1/3 text-center text-xs md:text-lg p-8 text-primary-950 tracking-wider leading-relaxed font-semibold">
+        <div className="absolute md:w-1/3 text-center text-xs md:text-lg p-8 text-primary-950">
           <h2 className={raleway.className}>
             Con inmensa alegría y gratitud, queremos compartir con usted una
             noticia muy especial, después de un hermoso camino juntos, hemos

@@ -22,7 +22,6 @@ const TimelineSection = () => {
             <React.Fragment key={index}>
               <VerticalTimelineElement
                 contentStyle={{
-                  background: "#FFEEE3",
                   boxShadow: "none",
                   border: "1px solid rgba(69, 26, 3, 1)",
                   textAlign: "left",
