@@ -9,7 +9,6 @@ const VideoSection = () => {
         preload="auto"
         autoPlay
         loop
-        muted
         playsInline
         controls
       >

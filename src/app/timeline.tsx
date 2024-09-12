@@ -13,7 +13,7 @@ const TimelineSection = () => {
   return (
     <div
       className="bg-[url(https://res.cloudinary.com/dxa54qfxx/image/upload/v1726097978/timeline_01_iettyn.jpg)] opacity-70 p-4
-    flex flex-col justify-center items-center
+    flex flex-col justify-center items-center bg-cover
     "
     >
       <div className={raleway.className}>
