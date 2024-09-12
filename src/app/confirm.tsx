@@ -18,6 +18,9 @@ import "react-toastify/dist/ReactToastify.css";
 const raleway = localFont({
   src: "./fonts/Raleway-VariableFont_wght.ttf",
 });
+const greatvibes = localFont({
+  src: "./fonts/GreatVibes-Regular.ttf",
+});
 
 const ConfirmSection = () => {
   const { isOpen, onOpen, onOpenChange } = useDisclosure();
@@ -26,6 +29,9 @@ const ConfirmSection = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
+        <div className="text-3xl p-4 text-primary-950">
+          <h1 className={greatvibes.className}>!Nos casamos!</h1>
+        </div>
         <Button
           onPress={onOpen}
           className=" bg-primary-800 text-primary-100 mb-8 p-4 rounded-md"
