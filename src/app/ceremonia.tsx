@@ -41,7 +41,7 @@ const CeremoniaSection = () => {
             quality={100}
             width={600}
             height={800}
-            objectFit="contain"
+            style={{ objectFit: "contain" }}
           />
         </div>
         <div className="flex flex-col items-center justify-center">

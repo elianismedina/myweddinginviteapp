@@ -13,7 +13,7 @@ const MensajeSection = () => {
         <Image
           src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1725932025/mensaje_a4nsaq.jpg"
           alt="Background mensaje de los novios"
-          objectFit="cover"
+          style={{ objectFit: "cover" }}
           quality={100}
           width={600}
           height={800}
