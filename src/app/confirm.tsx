@@ -34,7 +34,7 @@ const ConfirmSection = () => {
         </div>
         <Button
           onPress={onOpen}
-          className=" bg-primary-800 text-primary-100 mb-8 p-4 rounded-md"
+          className=" bg-primary-800 text-primary-100 mb-8 p-4 rounded-md border-4 border-primary-100 font-bold"
         >
           Confirma tu asistencia
         </Button>
@@ -81,12 +81,12 @@ const ConfirmSection = () => {
                   }
                 }}
               >
-                <ModalHeader className="flex flex-col gap-1">
+                <ModalHeader className="flex flex-col gap-1 text-primary-950">
                   Confirma tu asistencia
                 </ModalHeader>
                 <ModalBody>
                   <div className="flex flex-col gap-4">
-                    <label htmlFor="name" className="text-primary-800">
+                    <label htmlFor="name" className="text-primary-950">
                       Nombre
                     </label>
                     <input
@@ -100,7 +100,7 @@ const ConfirmSection = () => {
                     />
                   </div>
                   <div className="flex flex-col gap-4">
-                    <label htmlFor="phone" className="text-primary-800">
+                    <label htmlFor="phone" className="text-primary-950">
                       Número de teléfono
                     </label>
                     <input

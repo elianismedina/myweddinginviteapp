@@ -12,6 +12,7 @@ const CeremoniaSection = () => {
   return (
     <>
       <div className={raleway.className}>
+        {/* Iglesia */}
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-4xl font-bold text-center text-primary-900 mb-4">
             Ceremonia
