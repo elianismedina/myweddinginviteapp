@@ -18,7 +18,7 @@ const CeremoniaSection = () => {
             Ceremonia
           </h1>
           <div className="flex flex-col gap-2 mb-6">
-            <h2 className="text-lg text-center text-primary-900 font-semibold">
+            <h2 className="text-lg text-center text-primary-950 font-semibold">
               Lugar:
             </h2>
             <p className="text-lg text-center text-primary-950">
