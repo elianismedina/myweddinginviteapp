@@ -12,7 +12,7 @@ const RecepcionSection = () => {
   return (
     <>
       <div className={raleway.className}>
-        <div className="flex flex-col items-center justify-center">
+        <div className="flex flex-col items-center justify-center p-4">
           <h1 className="text-4xl font-bold text-center text-primary-950 mb-4">
             Recepción
           </h1>
