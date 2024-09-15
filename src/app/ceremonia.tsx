@@ -14,22 +14,22 @@ const CeremoniaSection = () => {
       <div className={raleway.className}>
         {/* Iglesia */}
         <div className="flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-bold text-center text-primary-900 mb-4">
+          <h1 className="text-4xl font-bold text-center text-primary-950 mb-4">
             Ceremonia
           </h1>
           <div className="flex flex-col gap-2 mb-6">
             <h2 className="text-lg text-center text-primary-900 font-semibold">
               Lugar:
             </h2>
-            <p className="text-lg text-center text-primary-900">
+            <p className="text-lg text-center text-primary-950">
               Iglesia Catedral de <br /> Santa Catalina de Alejandría
             </p>
           </div>
           <div className="flex flex-col gap-2 mb-6">
-            <h2 className="text-lg text-center text-primary-900 font-semibold">
+            <h2 className="text-lg text-center text-primary-950 font-semibold">
               Dirección:
             </h2>
-            <p className="text-lg text-center text-primary-900">
+            <p className="text-lg text-center text-primary-950">
               Calle de los Santos de Piedra,
               <br /> Cra. 4, Cartagena, Bolívar
             </p>
@@ -46,7 +46,7 @@ const CeremoniaSection = () => {
           />
         </div>
         <div className="flex flex-col items-center justify-center">
-          <FaMapLocationDot className="text-4xl text-primary-900" />
+          <FaMapLocationDot className="text-4xl text-primary-950" />
           <Link
             href="https://maps.app.goo.gl/U7cmhhMcFryFT67w8"
             className="flex items-center justify-center p-4 text-lg text-primary-900 font-semibold underline"

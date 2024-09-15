@@ -1,5 +1,10 @@
 "use client";
+import localFont from "next/font/local";
 import React, { useEffect, useState } from "react";
+
+const raleway = localFont({
+  src: "./fonts/Raleway-VariableFont_wght.ttf",
+});
 
 const TimerSection = () => {
   const [weddingTime, setWeddingTime] = useState(false);
@@ -37,7 +42,7 @@ const TimerSection = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <div className="">
+    <div className={raleway.className}>
       {weddingTime ? (
         <>
           <h1>¡Es nuestro día!</h1>
