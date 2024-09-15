@@ -31,7 +31,7 @@ const DresscodeSection = () => {
             </div>
             <div>
               <Image
-                src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726267271/mujerescropped2_cxmad4.png"
+                src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726360763/mujeresfinal_lbqimm.png"
                 alt="Mujeres"
                 width={500}
                 height={500}
@@ -52,7 +52,7 @@ const DresscodeSection = () => {
             </div>
             <div>
               <Image
-                src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726267785/hombrescropped2_ilueut.png"
+                src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726362553/hombresfinal_yqszyn.png"
                 alt="Hombres"
                 width={500}
                 height={500}
