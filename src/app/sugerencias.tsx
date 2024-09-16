@@ -120,6 +120,14 @@ const SugerenciasSection = () => {
                     className="rounded-lg"
                   />
                 </div>
+                <div className="">
+                  <p className="text-md text-primary-950 font-semibold text-center p-4">
+                    {maquilladora.title}
+                  </p>
+                </div>
+                <Link href={maquilladora.link} target="_blank">
+                  <Button className="w-full">Ver más</Button>
+                </Link>
               </CarouselItem>
             ))}
           </CarouselContent>

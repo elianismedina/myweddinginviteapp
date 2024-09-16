@@ -1,39 +1,39 @@
 [
     {
-        "title": "Maquilladora 1",
-        "description": "Description 1",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494387/Maquilladora1_01_hkv7uy.jpg"
+        "title": "Isabella Ferri",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494387/Maquilladora1_01_hkv7uy.jpg",
+        "link": "https://www.instagram.com/isabellaferrimakeup/"
 
     },
     {
-        "title": "Maquilladora 2",
-        "description": "Description 2",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494413/Maquilladora2_01_b4ur8h.jpg"
+        "title": "Laura Nuñez",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494413/Maquilladora2_01_b4ur8h.jpg",
+        "link": "https://www.instagram.com/lauranunezmakeup"
     },
     {
-        "title": "Maquilladora 3",
-        "description": "Description 3",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494434/Maquilladora3_01_dhk1th.jpg"
+        "title": "Adriana Quintana",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494434/Maquilladora3_01_dhk1th.jpg",
+        "link": "https://www.instagram.com/adrianaquintanamakeup_"
     },
     {
-        "title": "Maquilladora 4",
-        "description": "Description 4",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494455/Maquilladora4_01_pzfqjs.jpg"
+        "title": "Maria Paz Iriarte",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494455/Maquilladora4_01_pzfqjs.jpg",
+        "link": "https://www.instagram.com/mariapaziriartemakeup"
     },
     {
-        "title": "Maquilladora 5",
-        "description": "Description 5",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494474/Maquilladora5_01_brr371.jpg"
+        "title": "Laura Martinez",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494474/Maquilladora5_01_brr371.jpg",
+        "link": "https://www.instagram.com/makeupbylauramartinez1/"
     },
     {
-        "title": "Maquilladora 6",
-        "description": "Description 6",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494499/Maquilladora6_01_uyyu3r.jpg"
+        "title": "Brigitte Lopez",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494499/Maquilladora6_01_uyyu3r.jpg",
+        "link": "https://www.instagram.com/brigittelopezv"
     },
     {
-        "title": "Maquilladora 7",
-        "description": "Description 7",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494521/Maquilladora7_01_m4lyeo.jpg"
+        "title": "Angie Cabrera",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494521/Maquilladora7_01_m4lyeo.jpg",
+        "link": "https://www.instagram.com/angiecabreramakeup/"
     }
     
 ]
