@@ -45,14 +45,12 @@ const SugerenciasSection = () => {
           <CarouselContent>
             {restaurants.map((restaurant, index) => (
               <CarouselItem key={index}>
-                <div className="p-1">
+                <div className="p-1 aspect-square relative">
                   <Image
                     src={restaurant.image}
                     alt={restaurant.title}
-                    width={500}
-                    height={500}
                     className="rounded-lg"
-                    style={{ objectFit: "cover" }}
+                    fill
                   />
                 </div>
                 <div className="">
@@ -79,13 +77,12 @@ const SugerenciasSection = () => {
           <CarouselContent>
             {rumbas.map((rumba, index) => (
               <CarouselItem key={index}>
-                <div className="p-1">
+                <div className="p-1 aspect-square relative">
                   <Image
                     src={rumba.image}
                     alt={rumba.title}
-                    width={500}
-                    height={500}
                     className="rounded-lg"
+                    fill
                   />
                 </div>
                 <div className="">
@@ -112,13 +109,12 @@ const SugerenciasSection = () => {
           <CarouselContent>
             {maquilladoras.map((maquilladora, index) => (
               <CarouselItem key={index} className="w-full">
-                <div className="p-1">
+                <div className="p-1 aspect-square relative">
                   <Image
                     src={maquilladora.image}
                     alt={maquilladora.title}
-                    width={500}
-                    height={500}
                     className="rounded-lg"
+                    fill
                   />
                 </div>
                 <div className="">
