@@ -1,0 +1,30 @@
+
+[
+    {
+        "title": "Restaurant 1",
+        "description": "Description 1",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457222/Restaurante1_01_vogpbv.jpg"
+
+    },
+    {
+        "title": "Restaurant 2",
+        "description": "Description 2",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457322/Restaurante2_01_rmsuiq.jpg"
+    },
+    {
+        "title": "Restaurant 3",
+        "description": "Description 3",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457345/Restaurante3_01_c8m62l.jpg"
+    },
+    {
+        "title": "Restaurant 4",
+        "description": "Description 4",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457367/Restaurante4_01_waiasc.jpg"
+    },
+    {
+        "title": "Restaurant 5",
+        "description": "Description 5",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457398/Restaurante5_01_te4vk0.jpg"
+    }
+
+]
