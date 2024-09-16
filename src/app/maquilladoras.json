@@ -2,27 +2,38 @@
     {
         "title": "Maquilladora 1",
         "description": "Description 1",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457222/Restaurante1_01_vogpbv.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494387/Maquilladora1_01_hkv7uy.jpg"
 
     },
     {
         "title": "Maquilladora 2",
         "description": "Description 2",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457322/Restaurante2_01_rmsuiq.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494413/Maquilladora2_01_b4ur8h.jpg"
     },
     {
         "title": "Maquilladora 3",
         "description": "Description 3",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457345/Restaurante3_01_c8m62l.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494434/Maquilladora3_01_dhk1th.jpg"
     },
     {
         "title": "Maquilladora 4",
         "description": "Description 4",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457367/Restaurante4_01_waiasc.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494455/Maquilladora4_01_pzfqjs.jpg"
     },
     {
         "title": "Maquilladora 5",
         "description": "Description 5",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457398/Restaurante5_01_te4vk0.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494474/Maquilladora5_01_brr371.jpg"
+    },
+    {
+        "title": "Maquilladora 6",
+        "description": "Description 6",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494499/Maquilladora6_01_uyyu3r.jpg"
+    },
+    {
+        "title": "Maquilladora 7",
+        "description": "Description 7",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726494521/Maquilladora7_01_m4lyeo.jpg"
     }
+    
 ]
