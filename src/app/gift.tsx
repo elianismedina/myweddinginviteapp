@@ -21,7 +21,6 @@ const GiftSection = () => {
             quality={100}
             width={600}
             height={800}
-            priority
             className="relative"
             loading="lazy"
           />
