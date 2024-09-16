@@ -1,30 +1,35 @@
 
 [
     {
-        "title": "Restaurant 1",
+        "title": "Ana Restaurante Bar",
         "description": "Description 1",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457222/Restaurante1_01_vogpbv.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457222/Restaurante1_01_vogpbv.jpg",
+        "link": "https://www.instagram.com/anarestaurantectg"
 
     },
     {
-        "title": "Restaurant 2",
+        "title": "Candé Cocina 100% Cartagenera",
         "description": "Description 2",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457322/Restaurante2_01_rmsuiq.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457322/Restaurante2_01_rmsuiq.jpg",
+        "link": "https://www.instagram.com/canderestaurante"
     },
     {
-        "title": "Restaurant 3",
+        "title": "Juan Del Mar",
         "description": "Description 3",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457345/Restaurante3_01_c8m62l.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457345/Restaurante3_01_c8m62l.jpg",
+        "link": "https://www.instagram.com/juandelmarcartagena"
     },
     {
-        "title": "Restaurant 4",
+        "title": "Cuzco Cocina Peruana",
         "description": "Description 4",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457367/Restaurante4_01_waiasc.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457367/Restaurante4_01_waiasc.jpg",
+        "link": "https://www.instagram.com/restaurantecuzco"
     },
     {
-        "title": "Restaurant 5",
+        "title": "Mistura Restaurante Bar",
         "description": "Description 5",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457398/Restaurante5_01_te4vk0.jpg"
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726457398/Restaurante5_01_te4vk0.jpg",
+        "link": "https://www.instagram.com/misturacartagena"
     }
 
 ]

@@ -14,6 +14,8 @@ import rumbas from "@/app/rumbas.json";
 import maquilladoras from "@/app/maquilladoras.json";
 import localFont from "next/font/local";
 import { EmblaOptionsType } from "embla-carousel";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const raleway = localFont({
   src: "./fonts/Raleway-VariableFont_wght.ttf",
@@ -49,8 +51,17 @@ const SugerenciasSection = () => {
                     alt={restaurant.title}
                     width={500}
                     height={500}
+                    className="rounded-lg"
                   />
                 </div>
+                <div className="">
+                  <p className="text-md text-primary-950 font-semibold text-center p-4">
+                    {restaurant.title}
+                  </p>
+                </div>
+                <Link href={restaurant.link} target="_blank">
+                  <Button className="w-full">Ver más</Button>
+                </Link>
               </CarouselItem>
             ))}
           </CarouselContent>
@@ -73,6 +84,7 @@ const SugerenciasSection = () => {
                     alt={rumba.title}
                     width={500}
                     height={500}
+                    className="rounded-lg"
                   />
                 </div>
               </CarouselItem>
@@ -97,6 +109,7 @@ const SugerenciasSection = () => {
                     alt={maquilladora.title}
                     width={500}
                     height={500}
+                    className="rounded-lg"
                   />
                 </div>
               </CarouselItem>
