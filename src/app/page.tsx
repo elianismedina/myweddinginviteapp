@@ -5,6 +5,7 @@ import DresscodeSection from "./dresscode";
 import GiftSection from "./gift";
 import MensajeSection from "./mensaje";
 import RecepcionSection from "./recepcion";
+import ShareSection from "./share";
 import SugerenciasSection from "./sugerencias";
 import TimelineSection from "./timeline";
 import TimerSection from "./timer";
@@ -24,6 +25,7 @@ export default function Home() {
         <DresscodeSection />
         <GiftSection />
         <SugerenciasSection />
+        <ShareSection />
       </main>
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center bg-primary-950 w-full text-primary-400 p-2 text-sm">
         <p>Carlos & Elizabeth wedding invite</p>
