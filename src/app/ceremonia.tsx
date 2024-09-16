@@ -43,6 +43,7 @@ const CeremoniaSection = () => {
             width={600}
             height={800}
             style={{ objectFit: "contain" }}
+            loading="lazy"
           />
         </div>
         <div className="flex flex-col items-center justify-center">

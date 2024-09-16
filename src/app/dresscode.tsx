@@ -36,6 +36,7 @@ const DresscodeSection = () => {
                 width={500}
                 height={500}
                 className="mb-4"
+                loading="lazy"
               />
             </div>
             <div>
@@ -57,6 +58,7 @@ const DresscodeSection = () => {
                 width={500}
                 height={500}
                 className="mb-4"
+                loading="lazy"
               />
             </div>
           </div>

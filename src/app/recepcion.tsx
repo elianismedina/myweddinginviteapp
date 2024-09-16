@@ -40,6 +40,7 @@ const RecepcionSection = () => {
             alt="Recepción"
             width={600}
             height={600}
+            loading="lazy"
           />
         </div>
         <div className="flex flex-col items-center justify-center">

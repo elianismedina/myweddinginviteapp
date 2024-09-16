@@ -23,6 +23,7 @@ const TimelineSection = () => {
           width={300}
           height={450}
           quality={100}
+          loading="lazy"
         />
       </div>
     </div>

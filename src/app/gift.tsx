@@ -23,6 +23,7 @@ const GiftSection = () => {
             height={800}
             priority
             className="relative"
+            loading="lazy"
           />
           <div className="md:w-1/3 text-center text-lg p-8 text-primary-950 absolute">
             <h2>Lluvia de sobres</h2>

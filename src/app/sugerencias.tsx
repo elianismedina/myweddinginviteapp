@@ -51,6 +51,7 @@ const SugerenciasSection = () => {
                     alt={restaurant.title}
                     className="rounded-lg"
                     fill
+                    loading="lazy"
                   />
                 </div>
                 <div className="">
@@ -83,6 +84,7 @@ const SugerenciasSection = () => {
                     alt={rumba.title}
                     className="rounded-lg"
                     fill
+                    loading="lazy"
                   />
                 </div>
                 <div className="">
@@ -115,6 +117,7 @@ const SugerenciasSection = () => {
                     alt={maquilladora.title}
                     className="rounded-lg"
                     fill
+                    loading="lazy"
                   />
                 </div>
                 <div className="">

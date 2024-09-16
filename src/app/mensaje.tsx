@@ -19,6 +19,7 @@ const MensajeSection = () => {
           height={800}
           priority
           className="opacity-50 relative"
+          loading="lazy"
         />
         <div className="absolute md:w-1/3 text-center text-xs md:text-lg p-8 text-primary-950">
           <h2 className={raleway.className}>

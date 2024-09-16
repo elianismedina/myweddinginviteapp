@@ -13,6 +13,7 @@ const ShareSection = () => {
           width={600}
           height={800}
           className="opacity-60"
+          loading="lazy"
         />
       </div>
       <div className="absolute">
