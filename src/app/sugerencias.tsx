@@ -52,6 +52,7 @@ const SugerenciasSection = () => {
                     width={500}
                     height={500}
                     className="rounded-lg"
+                    style={{ objectFit: "cover" }}
                   />
                 </div>
                 <div className="">
