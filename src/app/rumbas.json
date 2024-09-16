@@ -1,29 +1,29 @@
 [
     {
-        "title": "Rumba 1",
-        "description": "Description 1",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493647/Rumba1_01_q4dqtv.jpg"
+        "title": "La Movida",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493647/Rumba1_01_q4dqtv.jpg",
+        "link": "https://www.instagram.com/lamovidacartagena"
 
     },
     {
-        "title": "Rumba 2",
-        "description": "Description 2",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493677/Rumba2_01_oaavqy.jpg"
+        "title": "La Jugada",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493677/Rumba2_01_oaavqy.jpg",
+        "link": "https://www.instagram.com/lajugadaclubhouse"
     },
     {
-        "title": "Rumba 3",
-        "description": "Description 3",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493702/Rumba3_01_rbby98.jpg"
+        "title": "Donde Fidel",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493702/Rumba3_01_rbby98.jpg",
+        "link": "https://www.instagram.com/donde_fidel/"
     },
     {
-        "title": "Rumba 4",
-        "description": "Description 4",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493724/Rumba4_01_df9xrx.jpg"
+        "title": "Alquimico",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493724/Rumba4_01_df9xrx.jpg",
+        "link": "https://www.instagram.com/alquimicocartagena/"
     },
     {
-        "title": "Rumba 5",
-        "description": "Description 5",
-        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493745/Rumba5_01_ajddjx.jpg"
+        "title": "Townhpuse Cartagena",
+        "image": "https://res.cloudinary.com/dxa54qfxx/image/upload/v1726493745/Rumba5_01_ajddjx.jpg",
+        "link": "https://www.instagram.com/townhousecartagena"
     }
 
 ]

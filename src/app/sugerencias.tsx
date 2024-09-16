@@ -38,7 +38,7 @@ const SugerenciasSection = () => {
         </h2>
 
         <Carousel
-          className="w-full max-w-xs md:max-w-md"
+          className="w-full max-w-xs md:max-w-md mb-4"
           plugins={[Autoplay({ delay: 2000 })]}
           opts={OPTIONS}
         >
@@ -87,6 +87,14 @@ const SugerenciasSection = () => {
                     className="rounded-lg"
                   />
                 </div>
+                <div className="">
+                  <p className="text-md text-primary-950 font-semibold text-center p-4">
+                    {rumba.title}
+                  </p>
+                </div>
+                <Link href={rumba.link} target="_blank">
+                  <Button className="w-full">Ver más</Button>
+                </Link>
               </CarouselItem>
             ))}
           </CarouselContent>
