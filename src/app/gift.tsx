@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import React from "react";
 import Image from "next/image";
+import { BsEnvelopeHeartFill } from "react-icons/bs";
 
 const raleway = localFont({
   src: "./fonts/Raleway-VariableFont_wght.ttf",
@@ -21,11 +22,23 @@ const GiftSection = () => {
             quality={100}
             width={600}
             height={800}
-            className="relative"
+            className="relative opacity-60"
             loading="lazy"
           />
-          <div className="md:w-1/3 text-center text-lg p-8 text-primary-950 absolute">
-            <h2>Lluvia de sobres</h2>
+          <div className="md:w-1/3 text-center text-lg p-8 text-primary-950 absolute font-medium">
+            <div className="mb-6">
+              <p>Lluvia de sobres</p>
+            </div>
+            <div className="flex flex-row items-center justify-center opacity-60">
+              <BsEnvelopeHeartFill
+                className="text-4xl text-primary-950"
+                size={100}
+              />
+            </div>
+            <h2>
+              Recuerda: Tu presencia es el mejor regalo de bodas
+              que puedes darnos
+            </h2>
           </div>
         </div>
       </div>

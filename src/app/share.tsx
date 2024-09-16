@@ -3,6 +3,11 @@ import Link from "next/link";
 import React from "react";
 import Image from "next/image";
 import { FaSquareInstagram } from "react-icons/fa6";
+import localFont from "next/font/local";
+
+const greatVibes = localFont({
+  src: "./fonts/GreatVibes-Regular.ttf",
+});
 
 const ShareSection = () => {
   return (
@@ -19,10 +24,15 @@ const ShareSection = () => {
       </div>
 
       <div className="absolute flex flex-col gap-4 items-center justify-end">
-        <div>
+        <div className={greatVibes.className}>
+          <p className="text-primary-950 text-center font-medium text-xl md:text-3xl">
+            Comparte con nosotros tus fotos de nuestro día soñado
+          </p>
+        </div>
+        <div className="opacity-60">
           <FaSquareInstagram
             className=" text-primary-950"
-            size={200}
+            size={120}
             style={{ filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))" }}
           />
         </div>
