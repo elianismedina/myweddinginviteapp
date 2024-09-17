@@ -40,8 +40,8 @@ const CeremoniaSection = () => {
             src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726016196/croppediglesia5_t9he1p.png"
             alt="Iglesia"
             quality={100}
-            width={600}
-            height={800}
+            width={400}
+            height={400}
             style={{ objectFit: "contain" }}
             loading="lazy"
           />

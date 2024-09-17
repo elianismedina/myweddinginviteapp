@@ -38,8 +38,8 @@ const RecepcionSection = () => {
           <Image
             src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726062066/recepcioncropped_tzlsts.png"
             alt="Recepción"
-            width={600}
-            height={600}
+            width={400}
+            height={400}
             loading="lazy"
           />
         </div>
