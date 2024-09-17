@@ -11,6 +11,7 @@ const VideoSection = () => {
         loop
         playsInline
         controls
+        muted
       >
         <source
           src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1725939653/inviteupdated2_wqboyr.mp4"
