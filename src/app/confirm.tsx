@@ -30,7 +30,7 @@ const ConfirmSection = () => {
           <div className="text-3xl p-4 text-primary-950"></div>
           <Button
             onPress={onOpen}
-            className=" bg-primary-800 text-primary-100 mb-8 p-4 rounded-md border-4 border-primary-300 font-bold"
+            className=" bg-gradient-to-r from-primary-950 to-primary-700 text-primary-200 mb-8 p-4 rounded-md border-2 w-2/3 2/3 border-primary-600 font-bold"
           >
             Confirma tu asistencia
           </Button>

@@ -19,12 +19,12 @@ const DresscodeSection = () => {
               <h2 className="font-semibold text-primary-950 text-2xl mb-4 text-center">
                 Mujeres
               </h2>
-              <p className="text-primary-950 text-center mb-2 text-lg">
+              <p className="text-primary-950 text-center mb-2 text-md md:text-lg">
                 Vestido largo tipo coctel, tacones comodos.
                 <br /> Se reserva el uso de estampados y los colores blanco y
                 magenta.
               </p>
-              <p className="text-primary-950 text-center text-lg">
+              <p className="text-primary-950 text-center text-md md:text-lg">
                 A continuación te colocamos una imagen de referencia para
                 que te inspires:
               </p>
@@ -43,10 +43,10 @@ const DresscodeSection = () => {
               <h2 className="font-semibold text-primary-950 text-2xl mb-4 text-center">
                 Hombres
               </h2>
-              <p className="text-primary-950 text-center mb-2 text-lg">
+              <p className="text-primary-950 text-center mb-2 text-md md:text-lg">
                 Guayabera manga larga blanca, pantalón en tonalidades tierra
               </p>
-              <p className="text-primary-950 text-center text-lg">
+              <p className="text-primary-950 text-center text-md md:text-lg">
                 A continuación te colocamos una imagen de referencia para
                 que te inspires:
               </p>
