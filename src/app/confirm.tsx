@@ -123,7 +123,6 @@ const ConfirmSection = () => {
                         type="submit"
                         className="px-4 py-2 text-primary-950 bg-primary-500 font-bold rounded-md flex flex-row items-center justify-center gap-2 text-sm"
                         onClick={() => {
-                          onClose();
                           notify();
                         }}
                       >
