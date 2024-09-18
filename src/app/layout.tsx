@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es-col">
-      <body className="bg-primary-400">
+      <body className="bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary-300 via-primary-400 to-primary-500">
         <NextUIProvider>{children}</NextUIProvider>
       </body>
     </html>
