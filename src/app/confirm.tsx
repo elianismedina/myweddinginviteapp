@@ -89,7 +89,7 @@ const ConfirmSection = () => {
                         required
                         maxLength={50}
                         name="senderName"
-                        placeholder="Jane Doe"
+                        placeholder="Carlos & Elizabeth ❤️"
                         id="name"
                         className="p-2 bg-primary-950 text-primary-100"
                       />
