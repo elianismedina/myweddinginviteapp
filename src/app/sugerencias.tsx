@@ -33,6 +33,14 @@ const SugerenciasSection = () => {
         <h1 className="text-4xl font-bold text-center text-primary-950 mb-4">
           Sugerencias
         </h1>
+        <h3 className="max-w-96 text-center mb-4 text-primary-950 text-sm md:text-md tracking-wider mt-4">
+          Para aquellos que quieren disfrutar aún más de nuestra celebración,
+          hemos recopilado una lista de lugares recomendados para comer y
+          disfrutar de la noche en Cartagena. <br /> Estos restaurantes y bares
+          han sido seleccionados con cariño y pensamos que podrían añadir un
+          toque especial a tu visita. <br /> ¡Esperamos que los disfrutes
+          tanto como nosotros!
+        </h3>
         <h2 className="font-semibold text-primary-950 text-2xl mb-4 text-center">
           Restaurantes
         </h2>
@@ -68,6 +76,7 @@ const SugerenciasSection = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
+
         <h2 className="font-semibold text-primary-950 text-2xl mb-4 text-center">
           Rumba
         </h2>
@@ -104,6 +113,12 @@ const SugerenciasSection = () => {
         <h2 className="font-semibold text-primary-950 text-2xl mb-4 text-center">
           Maquilladoras
         </h2>
+        <h3 className="max-w-96 text-center mb-4 text-primary-950 text-sm md:text-md tracking-wider mt-4">
+          A continuación te compartimos una selección de maquilladoras que
+          ofrecen sus servicios en la ciudad de Cartagena, para que tengas
+          algunas opciones si prefieres contar con un servicio profesional el
+          día de nuestra boda.
+        </h3>
         <Carousel
           className="w-full max-w-xs md:max-w-md"
           plugins={[Autoplay({ delay: 2000 })]}

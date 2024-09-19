@@ -14,7 +14,7 @@ const VideoSection = () => {
         muted
       >
         <source
-          src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1726661317/newinvitefinal_vjvqry.mp4"
+          src="https://res.cloudinary.com/dxa54qfxx/video/upload/v1726709617/invitefinal10_lgj0s5.mp4"
           type="video/mp4"
         />
       </video>

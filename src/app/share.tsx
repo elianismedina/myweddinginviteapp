@@ -43,10 +43,10 @@ const ShareSection = () => {
         </div>
         <div className="p-2">
           <p className="text-center text-primary-950 text-sm md:text-lg">
-            Adicionalmente, para que podamos recordar cada momento, <br /> hemos
-            creado una carpeta en Google Drive <br /> donde nos encantaría que
+            Para que podamos recordar cada momento, <br /> hemos creado una
+            carpeta en Google Drive <br /> donde nos encantaría que
             <br />
-            suban todas las fotos que tomen durante la boda.
+            subas todas las fotos que tomes durante la boda.
           </p>
         </div>
         <Link
