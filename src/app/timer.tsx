@@ -5,6 +5,9 @@ import React, { useEffect, useState } from "react";
 const raleway = localFont({
   src: "./fonts/Raleway-VariableFont_wght.ttf",
 });
+const greatVibes = localFont({
+  src: "./fonts/GreatVibes-Regular.ttf",
+});
 
 const TimerSection = () => {
   const [weddingTime, setWeddingTime] = useState(false);
@@ -14,7 +17,7 @@ const TimerSection = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("12/20/2024 23:59:59");
+    const target = new Date("09/18/2024 21:13:59");
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -45,8 +48,12 @@ const TimerSection = () => {
     <div className={raleway.className}>
       {weddingTime ? (
         <>
-          <h1>¡Es nuestro día!</h1>
-          <h2>¡Nos casamos!</h2>
+          <div className={greatVibes.className}>
+            <div className="flex flex-col items-center justify-center mt-6 text-4xl text-primary-950">
+              <h1>¡Ha llega nuestro gran día!</h1>
+              <h2>¡Acompañanos!</h2>
+            </div>
+          </div>
         </>
       ) : (
         <>
