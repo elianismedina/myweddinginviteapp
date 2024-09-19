@@ -27,7 +27,7 @@ const GiftSection = () => {
           />
           <div className="flex flex-col md:w-1/3 text-center text-md md:text-lg p-8 text-primary-950 absolute font-medium">
             <div className="mb-48">
-              <h1 className="text-4xl font-bold text-center text-primary-950 mb-8">
+              <h1 className="text-4xl font-bold text-center text-primary-950 mb-2">
                 Regalos
               </h1>
               <div className={greatVibes.className}>

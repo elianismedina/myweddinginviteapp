@@ -29,7 +29,7 @@ const DresscodeSection = () => {
                 que te inspires:
               </p>
             </div>
-            <div>
+            <div className="p-6">
               <Image
                 src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726360763/mujeresfinal_lbqimm.png"
                 alt="Mujeres"
@@ -51,7 +51,7 @@ const DresscodeSection = () => {
                 que te inspires:
               </p>
             </div>
-            <div>
+            <div className="p-6">
               <Image
                 src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726362553/hombresfinal_yqszyn.png"
                 alt="Hombres"
