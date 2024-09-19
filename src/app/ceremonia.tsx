@@ -37,7 +37,7 @@ const CeremoniaSection = () => {
         </div>
         <div className="flex flex-col items-center justify-center px-12">
           <Image
-            src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726622662/iglesiafinal_kxfelp.png"
+            src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726704613/iglesiafinal2_axze1h.png"
             alt="Iglesia"
             quality={100}
             width={400}

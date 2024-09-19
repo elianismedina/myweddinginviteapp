@@ -36,7 +36,7 @@ const RecepcionSection = () => {
         </div>
         <div className="flex flex-col items-center justify-center px-12">
           <Image
-            src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726622679/recepcionfinal_l3vpne.png"
+            src="https://res.cloudinary.com/dxa54qfxx/image/upload/v1726704631/recepcionfinal2_jjg4gj.png"
             alt="Recepción"
             width={400}
             height={400}
