@@ -36,7 +36,7 @@ const GiftSection = () => {
                 </p>
               </div>
             </div>
-            <div className="flex flex-col items-center justify-center mt-8">
+            <div className="flex flex-col items-center justify-center mt-24">
               <BsEnvelopeHeartFill
                 className="text-4xl text-primary-950 opacity-60"
                 size={100}

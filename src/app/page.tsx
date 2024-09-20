@@ -10,12 +10,6 @@ import SugerenciasSection from "./sugerencias";
 import TimelineSection from "./timeline";
 import TimerSection from "./timer";
 import VideoSection from "./video";
-import { Raleway } from "next/font/google";
-
-const raleway = Raleway({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-});
 
 export default function Home() {
   return (
@@ -33,11 +27,6 @@ export default function Home() {
         <SugerenciasSection />
         <ShareSection />
       </main>
-      <footer className={raleway.className}>
-        <div className="flex flex-row items-center justify-center bg-primary-950 w-screen text-primary-300 p-2 text-md md:text-lg font-medium">
-          <p>¡Nos vemos el 21 de Diciembre!</p>
-        </div>
-      </footer>
     </div>
   );
 }

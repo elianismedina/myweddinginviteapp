@@ -62,6 +62,11 @@ const ShareSection = () => {
             a capturar <br /> cada instante de este día inolvidable!
           </p>
         </div>
+        <div>
+          <p className="text-center text-primary-950 font-medium text-lg tracking-wider">
+            ¡Nos vemos el 21 de Diciembre!
+          </p>
+        </div>
       </div>
     </div>
   );

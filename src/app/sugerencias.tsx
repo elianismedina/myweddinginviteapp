@@ -110,7 +110,7 @@ const SugerenciasSection = () => {
           <CarouselPrevious />
           <CarouselNext />
         </Carousel>
-        <h2 className="font-semibold text-primary-950 text-2xl mb-4 text-center">
+        <h2 className="font-semibold text-primary-950 text-2xl text-center">
           Maquilladoras
         </h2>
         <h3 className="max-w-96 text-center mb-4 text-primary-950 text-sm md:text-md tracking-wider mt-4">
