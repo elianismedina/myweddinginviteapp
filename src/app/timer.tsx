@@ -44,7 +44,7 @@ const TimerSection = () => {
     }, 1000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [weddingTime]);
   return (
     <div className={raleway.className}>
       {weddingTime ? (
