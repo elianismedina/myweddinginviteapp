@@ -17,7 +17,7 @@ const TimerSection = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("12/20/2024 23:59:59");
+    const target = new Date("12/21/2024 00:00:00");
 
     const interval = setInterval(() => {
       const now = new Date();
