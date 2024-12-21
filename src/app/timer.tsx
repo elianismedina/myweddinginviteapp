@@ -17,7 +17,7 @@ const TimerSection = () => {
   const [seconds, setSeconds] = useState(0);
 
   useEffect(() => {
-    const target = new Date("12/21/2024 00:00:00");
+    const target = new Date("12/21/2024 06:45:30");
 
     const interval = setInterval(() => {
       const now = new Date();
@@ -39,6 +39,7 @@ const TimerSection = () => {
 
       if (d <= 0 && h <= 0 && 0 <= m && s <= 0) {
         setWeddingTime(true);
+        console.log(weddingTime);
       }
     }, 1000);
 
